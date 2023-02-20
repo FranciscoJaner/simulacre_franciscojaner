@@ -12,6 +12,7 @@ class DBProvider {
   DBProvider._();
 
   Future<Database> get database async {
+    // Metode singletone per generar la base de dades.
     if (_database == null) _database = await initDB();
 
     return _database!;

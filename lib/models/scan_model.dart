@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+// Model que anira cambiant segons las dades que necessitem
 class ScanModel {
   ScanModel({
     this.id,
